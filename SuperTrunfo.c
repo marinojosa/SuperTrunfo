@@ -32,10 +32,10 @@ int main () {
     printf("Digite o código da carta: \n");
     scanf("%d", &codigo1);
 
-    printf("Digite o nome do estado: \n");
+    printf("Digite o nome da cidade: \n");
     scanf(" %s", nome_do_estado1); //Foi adicionado um espaço antes do %s para resolver o seginte bug: https://stackoverflow.com/questions/29775323/scanfc-call-seems-to-be-skipped
 
-    printf("Qual a população? \n");
+    printf("Qual é o número populacional? \n");
     scanf("%d", &populacao1);
 
     printf("Qual o tamanho em área? \n");
@@ -44,7 +44,7 @@ int main () {
     printf("Qual o PIB? \n");
     scanf("%f", &PIB1);
 
-    printf("Qual o número de pontos turísticos? \n");
+    printf("Quantos pontos turísticos existem nessa cidade? \n");
     scanf("%d", &pontos_turisticos1);
 
     printf("Cadastro da carta 01 realizado! \n\n");
@@ -58,10 +58,10 @@ int main () {
     printf("Digite o código da carta: \n");
     scanf("%d", &codigo2);
 
-    printf("Digite o nome do estado: \n");
+    printf("Digite o nome da cidade: \n");
     scanf("%s", nome_do_estado2);
 
-    printf("Qual a população? \n");
+    printf("Qual é o número populacional? \n");
     scanf("%d", &populacao2);
 
     printf("Qual o tamanho em área? \n");
@@ -70,8 +70,10 @@ int main () {
     printf("Qual o PIB? \n");
     scanf("%f", &PIB2);
 
-    printf("Qual o número de pontos turísticos? \n");
+    printf("Quantos pontos turísticos existem nessa cidade? \n");
     scanf("%d", &pontos_turisticos2);
+
+
 
     printf("Cadastro da Carta 02 realizado! \n\n");
 
