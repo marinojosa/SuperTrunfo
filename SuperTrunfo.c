@@ -19,10 +19,10 @@ printf("Digite a inicial do estado: \n");
 scanf("%s", &estado1);
 
 printf("Digite o código da carta: \n");
-scanf("%s", &código1);
+scanf("%s", código1);
 
 printf("Digite o nome do estado: \n");
-scanf("%s", &nome_do_estado1);
+scanf("%s", nome_do_estado1);
 
 printf("Qual a população? \n");
 scanf("%d", &população1);
@@ -56,10 +56,10 @@ printf("Digite a inicial do estado: \n");
 scanf("%s", &estado2);
 
 printf("Digite o código da carta: \n");
-scanf("%s", &código2);
+scanf("%s", código2);
 
 printf("Digite o nome do estado: \n");
-scanf("%s", &nome_do_estado2);
+scanf("%s", nome_do_estado2);
 
 printf("Qual a população? \n");
 scanf("%d", &população2);
@@ -79,6 +79,7 @@ printf("Cadastro da Carta 02 realizado! \n");
 
 printf("Carta 01 \n");
 printf("Estado: %s \n", estado1);
+
 printf("Código da Carta: %d \n", código1);
 printf("Nome do Estado: %s \n", nome_do_estado1);
 printf("População: %d \n", população1);
@@ -96,5 +97,128 @@ printf("PIB: %d \n", PIB2);
 printf("Pontos turísticos: %d \n", pontos_turisticos2);
 
 return 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
