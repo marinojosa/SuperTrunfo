@@ -59,7 +59,7 @@ int main () {
 
     densidade_populacional1 = (populacao1 / area1);
     pib_per_capita1 = (PIB1 / populacao1);
-    super_poder1 = (populacao1 + area1 + PIB1 + pontos_turisticos1 + ( 1 / densidade_populacional1) + pib_per_capita1);
+    super_poder1 = (populacao1 + area1 + PIB1 + pontos_turisticos1 + ( 1.0 / densidade_populacional1) + pib_per_capita1);
 
     printf("Cadastro da carta 01 realizado! \n\n");
 
@@ -93,7 +93,7 @@ int main () {
 
     densidade_populacional2 = (populacao2 / area2);
     pib_per_capita2 = (PIB2 / populacao2);
-    super_poder1 = (populacao2 + area2 + PIB2 + pontos_turisticos2 + ( 1 / densidade_populacional2) + pib_per_capita2);
+    super_poder2 = (populacao2 + area2 + PIB2 + pontos_turisticos2 + ( 1.0 / densidade_populacional2) + pib_per_capita2);
 
     printf("Cadastro da Carta 02 realizado! \n\n");
 
