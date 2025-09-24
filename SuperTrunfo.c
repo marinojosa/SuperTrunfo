@@ -127,13 +127,13 @@ int main () {
     //COMPARAÇÃO DAS CARTAS:
     printf("----- COMPARAÇÃO DAS CARTAS ----- \n\n");
 
-    printf("POPULAÇÃO (CARTA 01) > POPULAÇÃO (CARTA 02): %u\n", populacao1 > populacao2);
-    printf("AREA (CARTA 01) > AREA (CARTA 02): %u\n", area1 > area2);
+    printf("POPULAÇÃO - CARTA 01 > CARTA 02: %u\n", populacao1 > populacao2);
+    printf("AREA - CARTA 01 > CARTA 02: %u\n", area1 > area2);
     printf("PIB (CARTA 01) > PIB (CARTA 02): %u\n", PIB1 > PIB2);
-    printf("PONTOS TURÍSTICOS (CARTA 01) > PONTOS TURÍSTICOS (CARTA 02): %u\n", pontos_turisticos1 > pontos_turisticos2);
-    printf("DENSIDADE POPULACIONAL (CARTA 01) > DENSIDADE POPULACIONAL (CARTA 02): %u\n", densidade_populacional1 > densidade_populacional2);
-    printf("PIB PER CAPITA (CARTA 01) > PIB PER CAPITA (CARTA 02): %u\n", pib_per_capita1 > pib_per_capita2);
-    printf("SUPER PODER (CARTA 01) > SUPER PODER (CARTA 02): %u\n", super_poder1 > super_poder2);
+    printf("PONTOS TURÍSTICOS - CARTA 01 > CARTA 02: %u\n", pontos_turisticos1 > pontos_turisticos2);
+    printf("DENSIDADE POPULACIONAL - CARTA 01 > CARTA 02: %u\n", densidade_populacional1 > densidade_populacional2);
+    printf("PIB PER CAPITA - CARTA 01 > CARTA 02: %u\n", pib_per_capita1 > pib_per_capita2);
+    printf("SUPER PODER - CARTA 01 > CARTA 02: %u\n", super_poder1 > super_poder2);
 
     //MOSTRANDO A CARTA VENCEDORA:
     printf("\n----- RESULTADO ----- \n\n");
